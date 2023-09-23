@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3850387380.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome to Hotel</h1>
+            <p style="margin: 10px 0px;">We provide food and rooms at very good price along with a great amenities to make your living experience awesom</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Looking for a vacation to leave behind the hustel of everyday life ?Come here we provide world class facilities toour costomers. We have everthing that your trip needs to hustle. So,enjoy here with our facility's.</p><br>
+            <p>We are present at a Bhandara, Nagpur,Wardha,Chandrapur,Gadchiroli and gondiya in Maharashra. We are also present in chattisgarh,MP and Delhi.</p>
+            <button class="know-button">Know More....</button>
+        </div>
+        <div class="aminities">
+            <h3>Aminities We Have :</h3>
+            <ul>
+                <li> <i class="fa-solid fa-wifi"></i> High Speedd Internet</li>
+                <li> <i class="fa-solid fa-mug-saucer"></i> Complimantory Breakfast</li>
+                <li> <i class="fa-solid fa-dumbbell"> </i>                    Gym</li>
+                <li> <i class="fa-solid fa-utensils"></i> Cafeteria</li>
+                <li> <i class="fa-solid fa-person-swimming"></i> Swimming Pool</li>
+            </ul>
+        </div>
+    </section>
+    <h2 class="room-heading">Room Thypes</h2>
+    <section class="room-type-container">
+    <div class="room-images">
+        <img src="room2.jpg" alt="room-image">
+    </div>
+    <div class="room-list">
+        <h3>Single occupacy Room </h3>
+        <p>Enjoy the comfort of Campanile rooms in Da Nang. Depending on the establishment, you’ll find private parking, meeting rooms, restaurants with self-serve buffets or à la carte dishes, as well as evening entertainment.</p>
+        <h3>Family Room</h3>
+        <p>Enjoy the comfort of Campanile rooms in Da Nang. Depending on the establishment, you’ll find private parking, meeting rooms, restaurants with self-serve buffets or à la carte dishes, as well as evening entertainment.</p>
+        <h3>Duplex Room</h3>
+        <p>Enjoy the comfort of Campanile rooms in Da Nang. Depending on the establishment, you’ll find private parking, meeting rooms, restaurants with self-serve buffets or à la carte dishes, as well as evening entertainment.</p>
+    </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label><br>
+                <input type="text" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label><br>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Room Type</label><br>
+                <select name="room-type" id="room type" required>
+                <option value="" selected disabled>Select....</option>
+                <option value="single-room">Single Room</option>
+                <option value="family-room">Family Room</option>
+                <option value="duplex-room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
